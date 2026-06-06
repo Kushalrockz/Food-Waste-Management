@@ -1,0 +1,39 @@
+/* GLOBAL */
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: #0b1120;
+  color: white;
+}
+
+/* LINKS */
+a {
+  color: #38bdf8;
+  text-decoration: none;
+  font-size: 14px;
+  transition: all 0.3s ease;
+}
+
+/* 🔥 HOVER EFFECT (cards + links) */
+a:hover {
+  color: #0ea5e9;
+  transform: translateY(-8px) scale(1.03);
+}
+
+/* 🔥 ANIMATED GRADIENT BACKGROUND */
+@keyframes gradientMove {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+/* OPTIONAL: smoother rendering */
+* {
+  box-sizing: border-box;
+}
